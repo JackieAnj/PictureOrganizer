@@ -1,0 +1,295 @@
+Welcome to PHASE1 of CSC207 Project
+Please record your edits as follows:
+
+-----------------------
+Editor: "name"
+TimeStamp: "insert date & rough time"
+Changes/How it works:
+Why:
+Possible Issues:
+***********************
+
+Thanks!
+
+CHANGES BELOW 
+-----------------------
+Editor: Jesse
+TimeStamp: 11/11/17 4:00PM
+
+Changes/How it works:
+-Created 3 classes (Image, Tag, ImageManager)
+-Image and Tag are the basic classes
+-ImageManager controls the edits that occur to the images and the tags
+
+Why: To start the project L O L
+
+Possible Issues:
+-We talked about having a tag manager as well for searching for image directories?
+***********************
+
+-----------------------
+Editor: Hyun Jin
+TimeStamp: 11/14/17 2:42
+Changes/How it works:
+-Created files duties.txt, help.txt, FileManager.java, Main.java
+-Added mostly empty methods to starter codes
+-Removed temporary file Temp.java
+-Moved classes into appropriate packages
+
+Why:
+Create template to start dividing work among group members
+
+Possible Issues:
+-May end up having to introduce a tag manager class
+-Main.java is incomplete, there are missing methods
+***********************
+
+-----------------------
+Editor: Hyun Jin
+TimeStamp: 11/14/17 2:48PM
+Changes/How it works:
+-Added package GUI and Main JavaFX Application
+
+Why:
+Start working on GUI
+
+Possible Issues:
+***********************
+
+-----------------------
+Editor: Jesse
+TimeStamp: 11/15/17 3:07PM
+
+Changes/How it works:
+-Coded the methods and added javadoc to Image and Tag classes
+-Formatted the code for better readability with comments
+-Grouped related code together (getters/setters)
+!!Add/Remove Functions were coded!!
+
+Why: Skeleton was there, but code wasn't implemented yet
+
+Possible Issues:
+-someone might want to double check the logic in adding/removing methods in Image; it's a little confusing since we are managing previous and current tags
+***********************
+
+=======
+Editor: Hugh
+TimeStamp: 11/14/17 7:16PM
+
+Changes/How it works:
+-Created 1 class and 1 fxml file for GUI (Controller.java application.fxml)
+-Changes made to GUI/Main.java in order to begin building user interface
+
+Why: To begin the user interface.
+
+Possible Issues:
+Since some methods in other classes are incomplete, we are unable to run
+the main method for the user interface. As a result we are unable to
+view changes made to the user interface thus far.
+***********************
+
+-----------------------
+Editor: Jesse
+TimeStamp: 11/16/17 5:21PM
+
+Changes/How it works:
+-The add/remove functions were looping when they shouldn't have been
+-remove() for ArrayLists can remove specific Object instead of at an index
+!!Add/Remove Functions were fixed!!
+
+Why: old way works, but isn't efficient 
+
+Possible Issues:
+***********************
+
+-----------------------
+Editor: Jesse
+TimeStamp: 11/16/17 5:40PM
+
+Changes/How it works:
+-Temporarily change all methods to return null values so that the GUI can be tested
+
+Why: GUI needs to be tested
+
+Possible Issues:
+***********************
+
+-----------------------
+Editor: Hyun Jin
+TimeStamp: 11/16/17 5:46PM
+
+Changes/How it works:
+-fixed method in add/remove image
+-Removed FileManager.java
+
+Why:
+-There was one more redundant if statement
+-much of what we are doing in FileManager can be done elsewhere (GUI)
+
+Possible Issues:
+***********************
+
+-----------------------
+Editor: Jesse
+TimeStamp: 11/16/17 5:56PM
+
+Changes/How it works:
+-removed FileManager, forgot to remove it last time
+-Main had to be altered
+
+Why:
+-much of what we are doing in FileManager can be done elsewhere (GUI)
+
+Possible Issues:
+***********************
+
+-----------------------
+Editor: Hyun Jin
+TimeStamp: 11/16/17 6:16PM
+
+Changes/How it works:
+-finished implementation of ImageManager
+
+Why:
+-Was not yet implemented
+
+Possible Issues:
+-May have to introduce TagManager class to improve efficiency
+***********************
+
+-----------------------
+Editor: Hyun Jin
+TimeStamp: 11/16/17 7:45PM
+
+Changes/How it works:
+-wrote skeleton (empty methods) for console/Main.java
+-changed previousTags in Image.java to an ArrayList of ArrayList of Tags
+-started working on a console implementation in console/Main.main
+-created TagManager.java
+
+Why:
+-to start working on console/Main.java
+
+Possible Issues:
+-all code written so far is unfinished and therefore will not run
+-TagManager may not end up being used
+***********************
+
+-----------------------
+Editor: Jackie Liu
+TimeStamp: 11/16/17 9:57PM
+
+Changes/How it works:
+- Created class TagManager
+- moved methods getTag and getTags from ImageManager to TagManager
+
+Why:
+- improves efficiency of the code
+- cleaner code format
+
+Possible Issues:
+
+***********************
+
+-----------------------
+Editor: Jackie Liu
+TimeStamp: 11/16/17 10:12PM
+
+Changes/How it works:
+- added Javadoc for ImageManager and TagManager
+
+Why:
+- makes code easier to understand
+
+Possible Issues:
+
+***********************
+
+-----------------------
+<<<<<<< HEAD
+Editor: Jackie Liu
+TimeStamp: 11/17/17 12:29PM
+
+Changes/How it works:
+- added private variable TagManager in Main
+- connected getAlltags method from main to getAllTags method in TagManager
+- connected getCurrentTags method from main to getCurrentTags method in Image
+- connected getPreviousTags method from main to getPreviousTags method in Image
+- created addTag method in main that adds a newly created Tag to selectedImage
+- connected addTag and removeTag method from main to addCurrentTag method in Image
+Why:
+- Allows the Main to access methods in other classes
+
+Possible Issues:
+- Accessing duplicate methods from main could be inefficient
+
+=======
+Editor: Hugh
+TimeStamp: 11/17/17 12:17AM
+
+Changes/How it works:
+-changes made to console/Main.java
+-empty methods temporarily return null
+
+Why:
+-now we can run GUI/Main.java
+
+Possible Issues:
+-will return to the changed class to implement methods
+
+***********************
+
+-----------------------
+Editor: Hugh
+TimeStamp: 11/17/17 12:30AM
+
+Changes/How it works:
+-changes made to GUI files
+
+Why:
+-user interface is now ready to interact with tag and console files
+
+Possible Issues:
+-some ugly code that may be refactored 
+
+***********************
+
+-----------------------
+Editor: Hyun Jin
+TimeStamp: 11/17/17 12:49AM
+
+Changes/How it works:
+-Finished up rough console implementation in console/Main.java
+-Added some missing methods to TagManager.java
+
+Why:
+-To use console implementation for testing later on
+-TagManager was missing some methods needed in console/Main
+
+Possible Issues:
+
+***********************
+
+-----------------------
+Editor: Hyun Jin
+TimeStamp: 11/17/17 12:54AM
+
+Changes/How it works:
+-Added a command in console implementation
+
+Why:
+-It was missing
+
+Possible Issues:
+
+***********************
+
+-----------------------
+Editor: Hugh
+TimeStamp: 11/17/17 2:17AM
+
+Changes/How it works:
+-minor fixes to GUI .java files
+-added application.css for potential stylizing of the interface
+>>>>>>> 4273b6d17c6049807618740a65b8f5a7386e289d
+***********************
