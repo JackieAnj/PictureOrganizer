@@ -1,5 +1,5 @@
 # PictureOrganizer
-Group Project on a picture organization software
+Group Project on a picture organization software.
 
 includes features such as:
   - Accessing all image files in a given directory and its sub directories
