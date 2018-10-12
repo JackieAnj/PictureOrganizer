@@ -7,4 +7,4 @@ includes features such as:
   - searching pictures by tags
   - favouriting and unfavouriting pictures
   
-The contributions of each group member is documented in 
+The contributions of each group member is documented in notes.txt
